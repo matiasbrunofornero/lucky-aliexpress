@@ -1,0 +1,25 @@
+{
+  "name": "lucky-aliexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "headless": "cypress run",
+    "test:firefox": "cypress run --browser firefox",
+    "test:chrome": "cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasbrunofornero/lucky-aliexpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasbrunofornero/lucky-aliexpress/issues"
+  },
+  "homepage": "https://github.com/matiasbrunofornero/lucky-aliexpress#readme",
+  "devDependencies": {
+    "cypress": "^12.5.1"
+  }
+}
