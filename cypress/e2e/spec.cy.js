@@ -5,7 +5,6 @@ describe('template spec', () => {
 
     cy.visit('/');
 
-
     //click if visible
     cy.xpath('/html/body/div[8]/div/div[1]/img[2]').then(($btn) => {
       if ($btn.length > 0) {
@@ -13,9 +12,11 @@ describe('template spec', () => {
       }
     })
 
+    cy.setSearch("asdasdasdasd");
+    cy.clickSearch();
 
-    cy.get('[name="SearchText"]').type("iPhone");
-    cy.get('[type="submit"].search-button').click();
+    // cy.get('[name="SearchText"]').type("iPhone");
+    // cy.get('[type="submit"].search-button').click();
 
     var page = 2;
     var prod = 2;

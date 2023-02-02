@@ -1,0 +1,4 @@
+{
+    "searchInput": "[name='SearchText']",
+    "searchBtn": "[type='submit'].search-button"
+}
