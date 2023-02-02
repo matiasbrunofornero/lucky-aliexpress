@@ -15,6 +15,8 @@
 
 // Import commands.js using ES2015 syntax:
 import './homePage'
+import './resultsPage'
+import './discountModal'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
