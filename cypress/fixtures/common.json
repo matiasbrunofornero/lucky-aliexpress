@@ -1,0 +1,9 @@
+{
+    "discountModal": "div[style*='position: fixed;'] div[style*='position: relative;']",
+    "discountModalCloseBtn": "img:nth-of-type(2)",
+    "languageInput": "[data-role='language-input']",
+    "languageSearch": "[data-role='language-container'] .search-currency",
+    "languageResult": "li:not([style='display: none;']) .switcher-item",
+    "saveBtn": "[data-role='save']",
+    "switcherInfo": "#switcher-info"
+}
