@@ -5,5 +5,8 @@
     "languageSearch": "[data-role='language-container'] .search-currency",
     "languageResult": "li:not([style='display: none;']) .switcher-item",
     "saveBtn": "[data-role='save']",
-    "switcherInfo": "#switcher-info"
+    "switcherInfo": "#switcher-info",
+    "mMyConfigBtn": "[data-spm='more']",
+    "mLanguageBtn": ".comet-icon-translated",
+    "mLanguageResult": "li span"
 }

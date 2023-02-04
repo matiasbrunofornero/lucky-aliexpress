@@ -1,4 +1,6 @@
 {
     "searchInput": "[name='SearchText']",
-    "searchBtn": "[type='submit'].search-button"
+    "searchBtn": "[type='submit'].search-button",
+    "mSearchBox": "[class='_3PDKR _3jKbq']",
+    "mSearchInput": "[class='_3hIan'] > input"
 }

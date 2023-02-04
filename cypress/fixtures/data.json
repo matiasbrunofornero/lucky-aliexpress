@@ -1,3 +1,3 @@
 {
-    "outStockMessage": "Not available. The product is out of stock at the moment"
+    "outStockMessage": "Green color means the stock is greater than 0. Red color means the product is out of stock at the moment"
 }
