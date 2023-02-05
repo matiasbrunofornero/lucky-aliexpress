@@ -1,0 +1,15 @@
+name: Cypress GitHub CI
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  cypress-run:
+    name: E2E on Chrome
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: cypress-io/github-action@v5.0.8
+        with:
+          browser: chrome
