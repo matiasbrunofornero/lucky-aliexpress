@@ -8,7 +8,7 @@ import postUpdateData from '../fixtures/api/post-update.json';
 
 
 describe('As a Customer we want to see if...', () => {
-  beforeEach((mobile = false) => {
+  beforeEach((mobile = true) => {
     cy.goToUrl(mobile);
   })
 
