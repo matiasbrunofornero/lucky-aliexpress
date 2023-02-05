@@ -49,3 +49,7 @@ Cypress.Commands.add('reloadIfPromote', () => {
     })
 });
 
+Cypress.Commands.add('goToUrl', (mobile) => {
+    mobile ? cy.visit("m.aliexpress.com") : cy.visit("/");
+});
+

@@ -1,5 +1,5 @@
 Cypress.Commands.add('getProdStock', () => {
-    cy.fixture('detailsPage').then((detailspage) => {
+    cy.fixture('web/detailsPage').then((detailspage) => {
         cy.get(detailspage.prodStock).then(function ($elem) {
             var txt = $elem.text();
             var numb = txt.match(/\d/g);

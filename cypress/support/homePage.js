@@ -1,5 +1,5 @@
 Cypress.Commands.add('searchProduct', (search) => {
-    cy.fixture('homepage').then((homepage) => {
+    cy.fixture('web/homepage').then((homepage) => {
         cy.url().then(($url) => {
             if ($url.includes("m.")) {
                 cy.get(homepage.mSearchBox).click()

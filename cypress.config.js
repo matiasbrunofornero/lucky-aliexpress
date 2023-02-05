@@ -7,7 +7,6 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: 'https://best.aliexpress.com/',
-    mobileUrl: 'asjdlajsd',
     defaultCommandTimeout: 10000
   },
 });

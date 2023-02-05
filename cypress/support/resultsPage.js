@@ -1,5 +1,5 @@
 Cypress.Commands.add('goToPage', (page) => {
-    cy.fixture('resultspage').then((resultspage) => {
+    cy.fixture('web/resultspage').then((resultspage) => {
         cy.url().then(($url) => {
             if ($url.includes("m.")) {
                 return;
@@ -10,7 +10,7 @@ Cypress.Commands.add('goToPage', (page) => {
 });
 
 Cypress.Commands.add('clickProductItem', (prod) => {
-    cy.fixture('resultspage').then((resultspage) => {
+    cy.fixture('web/resultspage').then((resultspage) => {
         cy.url().then(($url) => {
             if ($url.includes("m.")) {
                 cy.get(resultspage.mProductItem).click();

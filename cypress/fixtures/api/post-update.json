@@ -1,0 +1,6 @@
+{
+    "userId": 500,
+    "id": 500,
+    "title": "Testing PUT Request - Cypress",
+    "body": "It was edited through PUT Cypress Request on day 2/4"
+}

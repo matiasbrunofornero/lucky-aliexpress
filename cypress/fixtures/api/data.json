@@ -1,0 +1,9 @@
+{
+    "apiUrl": "https://jsonplaceholder.typicode.com",
+    "getUserName": "Leanne Graham",
+    "getUserEmail": "Sincere@april.biz",
+    "getUserCity": "Gwenborough",
+    "postLuckyBody": "LuckyApp Sample API Automation",
+    "updateLuckyTitle": "Testing PUT Request - Cypress",
+    "updateLuckyBody": "It was edited through PUT Cypress Request on day 2/4"
+}

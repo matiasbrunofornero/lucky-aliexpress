@@ -1,0 +1,6 @@
+{
+    "userId": 989,
+    "id": 277,
+    "title": "LuckyApp Sample API Automation",
+    "body": "This is just an example to test if Cypress is able to do a POST request"
+}
