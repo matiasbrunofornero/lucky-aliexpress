@@ -8,7 +8,7 @@ import postUpdateData from '../fixtures/api/post-update.json';
 
 
 describe('As a Customer we want to see if...', () => {
-  beforeEach((mobile = true) => {
+  beforeEach((mobile = false) => {
     cy.goToUrl(mobile);
   })
 
@@ -45,10 +45,9 @@ describe('As a Customer we want to see if...', () => {
     */
 
     cy.searchProduct("iPhone");
-    cy.clickProductItem(2);
 
     /*
-    searchProduct() and getProductItem() were built in order to
+    searchProduct() and clickProductItem() were built in order to
     search an specific product sent by parameter,
     through a basic search functionality. We have in issue there,
     due I was not able to found the "ad products". 
@@ -65,7 +64,7 @@ describe('As a Customer we want to see if...', () => {
     an specific product in a specific page.
     */
 
-    cy.getProdStock().then((stock) => {
+    cy.clickProductItem(2).getProdStock().then((stock) => {
       expect(stock).to.be.greaterThan(0, outStockMessage);
     })
 

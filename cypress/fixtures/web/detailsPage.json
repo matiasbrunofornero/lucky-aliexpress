@@ -1,3 +1,4 @@
 {
-    "prodStock": ".product-quantity-tip span > span"
+    "prodStock": ".product-quantity-tip span > span",
+    "mProdStock": ".quantity--info--Lv_Aw6e span"
 }

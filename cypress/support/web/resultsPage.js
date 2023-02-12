@@ -14,11 +14,13 @@ Cypress.Commands.add('clickProductItem', (prod) => {
         cy.url().then(($url) => {
             if ($url.includes("m.")) {
                 cy.get(resultspage.mProductItem).click();
+                return this;
             }
             else {
                 cy.get(resultspage.productItem).eq(prod)
                     .invoke("removeAttr", "target")
                     .click();
+                return this;
             }
         })
     });

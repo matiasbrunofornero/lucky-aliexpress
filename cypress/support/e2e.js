@@ -31,9 +31,9 @@ if (Cypress.config("hideXHRInCommandLog")) {
 
 // Import commands.js using ES2015 syntax:
 import './common'
-import './detailsPage'
-import './homePage'
-import './resultsPage'
+import './web/detailsPage'
+import './web/homePage'
+import './web/resultsPage'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

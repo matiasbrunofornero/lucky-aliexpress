@@ -25,6 +25,7 @@ Cypress.Commands.add('setLanguageTo', (lang) => {
                 cy.get(common.mLanguageResult).contains(lang).dblclick();
             }
             else {
+                return;
                 cy.get('#switcher-info').then(($button) => {
                     cy.wrap($button).click();
                     cy.get(common.languageInput).click();
